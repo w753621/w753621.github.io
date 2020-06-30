@@ -1592,9 +1592,6 @@ kbd {
 .post-meta-item--updatetime {
   color: #49b1f5;
 }
-.post-meta-item--wordcount {
-  color: var(--color-gray-700);
-}
 .post-meta-item--readtime {
   color: #49b1f5;
 }
@@ -2190,6 +2187,18 @@ kbd {
 .footer .exturl__icon {
   color: #fff;
 }
+.comments {
+  margin: 1.5rem 0 0;
+  width: 100%;
+  border-radius: 5px;
+  padding: 1rem 2rem;
+  background-color: var(--color-card);
+  float: left;
+}
+#disqus_thread {
+  width: 100%;
+  background-color: #fff;
+}
 .copy-button {
   position: absolute;
   top: 0;
@@ -2476,6 +2485,18 @@ kbd {
 .friends-plugin__item-info__intro {
   font-size: 0.9em;
   color: #999;
+}
+.busuanzi-siteuv__icon,
+.busuanzi-sitepv__icon,
+.busuanzi-siteuv__info,
+.busuanzi-sitepv__info,
+.busuanzi-siteuv__value,
+.busuanzi-sitepv__value {
+  margin: 0 2px;
+}
+.busuanzi > span:nth-child(2)::before {
+  content: '|';
+  margin: 0 10px;
 }
 @media (min-width: 1138px) {
   .header-nav-inner {
